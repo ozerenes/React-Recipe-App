@@ -11,6 +11,8 @@ import {
   useMantineTheme,
 } from '@mantine/core';
 
+import List from './list'
+
 export default function AppShellDemo() {
   const theme = useMantineTheme();
   const [opened, setOpened] = useState(false);
@@ -37,7 +39,7 @@ export default function AppShellDemo() {
       }
       footer={
         <Footer height={60} p="md">
-          Application footer
+          Burayı Kübra yapcak
         </Footer>
       }
       header={
@@ -58,7 +60,7 @@ export default function AppShellDemo() {
         </Header>
       }
     >
-      <Text>Resize app to see responsive navbar in action</Text>
+      <List />
     </AppShell>
   );
-}
+} 
