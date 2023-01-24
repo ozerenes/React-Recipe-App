@@ -10,7 +10,7 @@ import {
   Burger,
   useMantineTheme,
 } from '@mantine/core';
-
+import Kubra from './kubra'
 import List from './list'
 
 export default function AppShellDemo() {
@@ -39,7 +39,7 @@ export default function AppShellDemo() {
       }
       footer={
         <Footer height={60} p="md">
-          Burayı Kübra yapcak
+          <Kubra></Kubra>
         </Footer>
       }
       header={
