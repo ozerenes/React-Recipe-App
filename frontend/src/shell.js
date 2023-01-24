@@ -10,6 +10,8 @@ import {
   Burger,
   useMantineTheme,
 } from '@mantine/core';
+import Kubra from './kubra'
+import List from './list'
 
 export default function AppShellDemo() {
   const theme = useMantineTheme();
@@ -37,7 +39,7 @@ export default function AppShellDemo() {
       }
       footer={
         <Footer height={60} p="md">
-          Application footer
+          <Kubra></Kubra>
         </Footer>
       }
       header={
@@ -57,8 +59,13 @@ export default function AppShellDemo() {
           </div>
         </Header>
       }
+<<<<<<< HEAD
     > 
       <Text>Resize app to see responsive navbar in action</Text>
+=======
+    >
+      <List />
+>>>>>>> 867c22803d997a5e3fea49d230cff7c4593a5e24
     </AppShell>
   );
-}
+} 
