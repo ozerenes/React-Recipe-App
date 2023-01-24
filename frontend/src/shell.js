@@ -57,7 +57,7 @@ export default function AppShellDemo() {
           </div>
         </Header>
       }
-    >
+    > 
       <Text>Resize app to see responsive navbar in action</Text>
     </AppShell>
   );
